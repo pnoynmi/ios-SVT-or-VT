@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		5B11A5191E85F6D400D0BABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11A5181E85F6D400D0BABC /* AppDelegate.swift */; };
-		5B11A51B1E85F6D400D0BABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11A51A1E85F6D400D0BABC /* ViewController.swift */; };
 		5B11A51E1E85F6D400D0BABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B11A51C1E85F6D400D0BABC /* Main.storyboard */; };
 		5B11A5201E85F6D400D0BABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B11A51F1E85F6D400D0BABC /* Assets.xcassets */; };
 		5B11A5231E85F6D400D0BABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B11A5211E85F6D400D0BABC /* LaunchScreen.storyboard */; };
 		5B11A52E1E85F6D400D0BABC /* Is_it_VT_or_SVTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11A52D1E85F6D400D0BABC /* Is_it_VT_or_SVTTests.swift */; };
 		5B11A5391E85F6D400D0BABC /* Is_it_VT_or_SVTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11A5381E85F6D400D0BABC /* Is_it_VT_or_SVTUITests.swift */; };
+		5B11A5491E86115E00D0BABC /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11A5481E86115E00D0BABC /* DisclaimerViewController.swift */; };
+		5B465D4D1E90B28900FB5E1F /* RSDurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B465D4C1E90B28900FB5E1F /* RSDurationViewController.swift */; };
+		5B8DBF7F1EA466C300F16353 /* RWPeakTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DBF7E1EA466C300F16353 /* RWPeakTimeViewController.swift */; };
+		5B967E261EB684060092A86A /* VTSVTTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B967E251EB684060092A86A /* VTSVTTableViewController.swift */; };
+		5BCBE68A1E91AF6400A56993 /* AVDissociationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCBE6891E91AF6400A56993 /* AVDissociationViewController.swift */; };
+		5BCC54191E99214E00DE01CD /* QRSMorphologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC54181E99214E00DE01CD /* QRSMorphologyViewController.swift */; };
+		5BDD26C41EABE5BB00FF9592 /* ACCRegularTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD26C31EABE5BB00FF9592 /* ACCRegularTableViewController.swift */; };
+		5BE1A2E41EA9A9EC0080F1B7 /* ACCAlgorithm TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE1A2E31EA9A9EB0080F1B7 /* ACCAlgorithm TableViewController.swift */; };
+		5BE38F7C1E86F84F00EC2319 /* DiagnosticAlgorithmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE38F7B1E86F84F00EC2319 /* DiagnosticAlgorithmTableViewController.swift */; };
+		5BEBD7421EAD53CC0005CFAF /* ACCMorphologyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEBD7411EAD53CC0005CFAF /* ACCMorphologyTableViewController.swift */; };
+		5BF5A6D21E9142CE00F519DB /* ConcordanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF5A6D11E9142CE00F519DB /* ConcordanceViewController.swift */; };
+		5BFFECC01E875FD700165DA1 /* BrugadaAlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFFECBF1E875FD700165DA1 /* BrugadaAlgorithmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,6 @@
 /* Begin PBXFileReference section */
 		5B11A5151E85F6D400D0BABC /* Is it VT or SVT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Is it VT or SVT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B11A5181E85F6D400D0BABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B11A51A1E85F6D400D0BABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B11A51D1E85F6D400D0BABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B11A51F1E85F6D400D0BABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B11A5221E85F6D400D0BABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,18 @@
 		5B11A5341E85F6D400D0BABC /* Is it VT or SVTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Is it VT or SVTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B11A5381E85F6D400D0BABC /* Is_it_VT_or_SVTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Is_it_VT_or_SVTUITests.swift; sourceTree = "<group>"; };
 		5B11A53A1E85F6D400D0BABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B11A5481E86115E00D0BABC /* DisclaimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
+		5B465D4C1E90B28900FB5E1F /* RSDurationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSDurationViewController.swift; sourceTree = "<group>"; };
+		5B8DBF7E1EA466C300F16353 /* RWPeakTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RWPeakTimeViewController.swift; sourceTree = "<group>"; };
+		5B967E251EB684060092A86A /* VTSVTTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTSVTTableViewController.swift; sourceTree = "<group>"; };
+		5BCBE6891E91AF6400A56993 /* AVDissociationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVDissociationViewController.swift; sourceTree = "<group>"; };
+		5BCC54181E99214E00DE01CD /* QRSMorphologyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRSMorphologyViewController.swift; sourceTree = "<group>"; };
+		5BDD26C31EABE5BB00FF9592 /* ACCRegularTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCRegularTableViewController.swift; sourceTree = "<group>"; };
+		5BE1A2E31EA9A9EB0080F1B7 /* ACCAlgorithm TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ACCAlgorithm TableViewController.swift"; path = "../ACCAlgorithm TableViewController.swift"; sourceTree = "<group>"; };
+		5BE38F7B1E86F84F00EC2319 /* DiagnosticAlgorithmTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosticAlgorithmTableViewController.swift; sourceTree = "<group>"; };
+		5BEBD7411EAD53CC0005CFAF /* ACCMorphologyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCMorphologyTableViewController.swift; sourceTree = "<group>"; };
+		5BF5A6D11E9142CE00F519DB /* ConcordanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcordanceViewController.swift; sourceTree = "<group>"; };
+		5BFFECBF1E875FD700165DA1 /* BrugadaAlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrugadaAlgorithmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +119,22 @@
 		5B11A5171E85F6D400D0BABC /* Is it VT or SVT */ = {
 			isa = PBXGroup;
 			children = (
+				5BE1A2E31EA9A9EB0080F1B7 /* ACCAlgorithm TableViewController.swift */,
 				5B11A5181E85F6D400D0BABC /* AppDelegate.swift */,
-				5B11A51A1E85F6D400D0BABC /* ViewController.swift */,
 				5B11A51C1E85F6D400D0BABC /* Main.storyboard */,
+				5B967E251EB684060092A86A /* VTSVTTableViewController.swift */,
+				5BEBD7411EAD53CC0005CFAF /* ACCMorphologyTableViewController.swift */,
+				5BDD26C31EABE5BB00FF9592 /* ACCRegularTableViewController.swift */,
+				5B8DBF7E1EA466C300F16353 /* RWPeakTimeViewController.swift */,
+				5BCC54181E99214E00DE01CD /* QRSMorphologyViewController.swift */,
+				5BCBE6891E91AF6400A56993 /* AVDissociationViewController.swift */,
+				5BF5A6D11E9142CE00F519DB /* ConcordanceViewController.swift */,
+				5B465D4C1E90B28900FB5E1F /* RSDurationViewController.swift */,
+				5BFFECBF1E875FD700165DA1 /* BrugadaAlgorithmViewController.swift */,
+				5BE38F7B1E86F84F00EC2319 /* DiagnosticAlgorithmTableViewController.swift */,
 				5B11A51F1E85F6D400D0BABC /* Assets.xcassets */,
 				5B11A5211E85F6D400D0BABC /* LaunchScreen.storyboard */,
+				5B11A5481E86115E00D0BABC /* DisclaimerViewController.swift */,
 				5B11A5241E85F6D400D0BABC /* Info.plist */,
 			);
 			path = "Is it VT or SVT";
@@ -188,18 +221,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Abraham Salacata";
 				TargetAttributes = {
 					5B11A5141E85F6D400D0BABC = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6KJ2PVKMDD;
+						LastSwiftMigration = 0830;
 					};
 					5B11A5281E85F6D400D0BABC = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
 						TestTargetID = 5B11A5141E85F6D400D0BABC;
 					};
 					5B11A5331E85F6D400D0BABC = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
 						TestTargetID = 5B11A5141E85F6D400D0BABC;
 					};
 				};
@@ -256,8 +293,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B11A51B1E85F6D400D0BABC /* ViewController.swift in Sources */,
+				5B967E261EB684060092A86A /* VTSVTTableViewController.swift in Sources */,
+				5B8DBF7F1EA466C300F16353 /* RWPeakTimeViewController.swift in Sources */,
+				5BF5A6D21E9142CE00F519DB /* ConcordanceViewController.swift in Sources */,
+				5B465D4D1E90B28900FB5E1F /* RSDurationViewController.swift in Sources */,
+				5BEBD7421EAD53CC0005CFAF /* ACCMorphologyTableViewController.swift in Sources */,
 				5B11A5191E85F6D400D0BABC /* AppDelegate.swift in Sources */,
+				5BE1A2E41EA9A9EC0080F1B7 /* ACCAlgorithm TableViewController.swift in Sources */,
+				5BCC54191E99214E00DE01CD /* QRSMorphologyViewController.swift in Sources */,
+				5B11A5491E86115E00D0BABC /* DisclaimerViewController.swift in Sources */,
+				5BE38F7C1E86F84F00EC2319 /* DiagnosticAlgorithmTableViewController.swift in Sources */,
+				5BCBE68A1E91AF6400A56993 /* AVDissociationViewController.swift in Sources */,
+				5BFFECC01E875FD700165DA1 /* BrugadaAlgorithmViewController.swift in Sources */,
+				5BDD26C41EABE5BB00FF9592 /* ACCRegularTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,8 +373,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -369,8 +419,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -389,6 +441,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -397,10 +450,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Is it VT or SVT/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Endeavor-Medical-Research.Is-it-VT-or-SVT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -408,10 +467,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Is it VT or SVT/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Endeavor-Medical-Research.Is-it-VT-or-SVT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -423,6 +488,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Endeavor-Medical-Research.Is-it-VT-or-SVTTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Is it VT or SVT.app/Is it VT or SVT";
 			};
 			name = Debug;
@@ -435,6 +501,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Endeavor-Medical-Research.Is-it-VT-or-SVTTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Is it VT or SVT.app/Is it VT or SVT";
 			};
 			name = Release;
@@ -446,6 +513,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Endeavor-Medical-Research.Is-it-VT-or-SVTUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Is it VT or SVT";
 				USES_XCTRUNNER = YES;
 			};
@@ -458,6 +526,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Endeavor-Medical-Research.Is-it-VT-or-SVTUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Is it VT or SVT";
 				USES_XCTRUNNER = YES;
 			};
@@ -482,6 +551,7 @@
 				5B11A53F1E85F6D400D0BABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B11A5401E85F6D400D0BABC /* Build configuration list for PBXNativeTarget "Is it VT or SVTTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +560,7 @@
 				5B11A5421E85F6D400D0BABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B11A5431E85F6D400D0BABC /* Build configuration list for PBXNativeTarget "Is it VT or SVTUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +569,7 @@
 				5B11A5451E85F6D400D0BABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
