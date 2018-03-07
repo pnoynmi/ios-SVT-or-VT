@@ -26,9 +26,9 @@ class DiagnosticAlgorithmTableViewController: UITableViewController {
         
         let DiagnosticAlgorithmIntroTxtMutableString = NSMutableAttributedString(string: DiagnosticAlgorithmsIntroTxt)
         
-        DiagnosticAlgorithmIntroTxtMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: DiagnosticAlgorithmIntroTxtMutableString.length))
+        DiagnosticAlgorithmIntroTxtMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: DiagnosticAlgorithmIntroTxtMutableString.length))
+        
         DiagnosticAlgorithmExplanationLabel.attributedText = DiagnosticAlgorithmIntroTxtMutableString
-    
     
     }
 
@@ -39,14 +39,13 @@ class DiagnosticAlgorithmTableViewController: UITableViewController {
 
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+        
         return 1
     }
 
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        // #warning Incomplete implementation, return the number of rows
         return 4
         
     }

@@ -19,7 +19,7 @@ class AVDissociationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        AVDissociationMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: AVDissociationMutableString.length))
+        AVDissociationMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: AVDissociationMutableString.length))
         AVDissociationExplnLabel.sizeToFit()
         AVDissociationExplnLabel.attributedText = AVDissociationMutableString
         

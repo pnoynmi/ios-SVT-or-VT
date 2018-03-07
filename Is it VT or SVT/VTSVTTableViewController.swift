@@ -63,9 +63,9 @@ class VTSVTTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        accconcordanceexplanationtextMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: accconcordanceexplanationtextMutableString.length))
+        accconcordanceexplanationtextMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: accconcordanceexplanationtextMutableString.length))
         
-        accsvtrbbbmorphologytextMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: accsvtrbbbmorphologytextMutableString.length))
+        accsvtrbbbmorphologytextMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: accsvtrbbbmorphologytextMutableString.length))
         
         
         let BulletStyle = NSMutableParagraphStyle() /* Creates paraStyle that defines the paragraph */
@@ -76,15 +76,15 @@ class VTSVTTableViewController: UITableViewController {
         
         BulletStyle.alignment = NSTextAlignment.left
         
-        accsvtlbbbmorphologytextMutableString.addAttribute(NSParagraphStyleAttributeName, value: BulletStyle, range: NSRange(location: 0, length: accsvtlbbbmorphologytextMutableString.length))
+        accsvtlbbbmorphologytextMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: BulletStyle, range: NSRange(location: 0, length: accsvtlbbbmorphologytextMutableString.length))
         
-        accconcordanceexplanationMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: accconcordanceexplanationMutableString.length))
+        accconcordanceexplanationMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: accconcordanceexplanationMutableString.length))
         
-        accrsintervalexplanationtxttextMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: accrsintervalexplanationtxttextMutableString.length))
+        accrsintervalexplanationtxttextMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: accrsintervalexplanationtxttextMutableString.length))
         
-        acclbbbtxtMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: acclbbbtxtMutableString.length))
+        acclbbbtxtMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: acclbbbtxtMutableString.length))
         
-        accrbbbtxtMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: accrbbbtxtMutableString.length))
+        accrbbbtxtMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: accrbbbtxtMutableString.length))
         
         
         MorphologyIntroLabel.attributedText = accconcordanceexplanationtextMutableString
@@ -114,8 +114,6 @@ class VTSVTTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections

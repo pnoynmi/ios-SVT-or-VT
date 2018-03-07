@@ -16,7 +16,7 @@ class RSDurationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        RSDurationExplanationText.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: RSDurationExplanationText.length))
+        RSDurationExplanationText.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: RSDurationExplanationText.length))
         
          RSDurationLabel.sizeToFit()
         

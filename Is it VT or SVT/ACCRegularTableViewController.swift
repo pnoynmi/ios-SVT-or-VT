@@ -35,9 +35,9 @@ class ACCRegularTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ACCRegularIntroTxtMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: ACCRegularIntroTxtMutableString.length))
+        ACCRegularIntroTxtMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: ACCRegularIntroTxtMutableString.length))
         
-      ACCVTxtMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: ACCVTxtMutableString.length))
+      ACCVTxtMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: ACCVTxtMutableString.length))
         
         ACCRegularIntro.attributedText = ACCRegularIntroTxtMutableString
         
@@ -48,19 +48,17 @@ ACCVTxtMutableString
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
     }
 
-    // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+        
         return 1
     }
 
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+    
         return 4
     }
 
@@ -93,21 +91,7 @@ ACCVTxtMutableString
             
             Cell4Height = 0
         }
-        
-        
-        print(ACCRegIntro.bounds.size.height)
-        
-    
-        print(ACCVT.bounds.size.height)
-        
-        print(ACCVT.bounds.size.width)
-        
-        
-        print(ACCRegularIntro.bounds.size.height)
-        
-        
-        print(ACCRegularIntro.bounds.size.width)
-        
+     
         
         self.tableView.reloadRows(at: [], with:
         UITableViewRowAnimation.automatic)

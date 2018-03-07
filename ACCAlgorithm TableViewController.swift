@@ -45,9 +45,9 @@ class ACCAlgorithm_TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ACCIntroTxtMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: ACCIntroTxtMutableString.length))
+        ACCIntroTxtMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: ACCIntroTxtMutableString.length))
         
-        ACCIrregTxtMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location:0, length:ACCIrregTxtMutableString.length))
+        ACCIrregTxtMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location:0, length:ACCIrregTxtMutableString.length))
         
         
         ACCIntroLabel.attributedText = ACCIntroTxtMutableString

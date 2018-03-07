@@ -24,7 +24,7 @@ class BrugadaAlgorithmViewController: UIViewController {
         
         super.viewDidLoad()
         
-        BrugadaIntroString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: BrugadaIntroString.length))
+        BrugadaIntroString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: BrugadaIntroString.length))
         
         
         BrugadaIntroLabel.attributedText = BrugadaIntroString
@@ -37,7 +37,7 @@ class BrugadaAlgorithmViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
 }

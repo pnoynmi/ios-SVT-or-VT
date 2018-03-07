@@ -22,8 +22,8 @@ class QRSMorphologyViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        BrugadaQRSIntroMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: BrugadaQRSIntroMutableString.length))
-        BrugadaQRSExplMutableString.addAttribute(NSParagraphStyleAttributeName, value: StandardParagraphStyle, range: NSRange(location: 0, length: BrugadaQRSExplMutableString.length))
+        BrugadaQRSIntroMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: BrugadaQRSIntroMutableString.length))
+        BrugadaQRSExplMutableString.addAttribute(NSAttributedStringKey.paragraphStyle, value: StandardParagraphStyle, range: NSRange(location: 0, length: BrugadaQRSExplMutableString.length))
         
         BrugadaQRSMorphologyIntroLabel.sizeToFit()
         
@@ -37,18 +37,8 @@ class QRSMorphologyViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
+
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
